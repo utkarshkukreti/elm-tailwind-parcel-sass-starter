@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "parcel -d .cache/dev src/index.html",
+    "build": "parcel build -d dist --no-source-maps --no-cache src/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "elm-hot": "^1.1.2",
+    "node-elm-compiler": "^5.0.4",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.10",
+    "tailwindcss": "^1.1.2"
+  }
+}
